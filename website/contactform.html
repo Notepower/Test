@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+  
+    <link rel="stylesheet" href="content.css">
+</head>
+<body style="background-color: #f3f3f3;">
+   
+    
+          
+        <nav class="navbar navbar-expand-md navbar-light bg-light d-flex sticky-top" id="parent">
+            <div class="navbar-toggler text-center w-100 border-0 p-0">
+            
+               
+                <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+               
+                <a class="navbar-brand" href="#"><img src="../media/logox3.png" height="40px" alt=""></a>
+        
+              
+                <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#collapsibleNavbar_2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            
+            <!-- Menu 1 -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar_1"  data-parent="#parent">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="home.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                         About Us
+                      </a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="dev.html">Website</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Designer</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" data-toggle="modal" href="#mymodal">Contact</a>
+                  </li>
+
+                </ul>
+            </div> 
+            <div class="collapse navbar-collapse justify-content-center">
+                <img src="media/logox3.png" height="50px" alt="">
+            </div>
+              
+            <div class="collapse navbar-collapse justify-content-end text-right" id="collapsibleNavbar_2" data-parent="#parent">
+                <form class="form-inline my-3 my-md-0 justify-content-end">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="" />
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+        <div class="container-fluid padding contact">
+            <div class="row text-center">
+                <div class="col-12">
+                    
+                        <h1>CONTACT WITH US</h1>
+          <hr>
+            </div>
+            <div class="col-12">
+                <form>
+                <div class="form-group row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Name...">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email...">
+                  </div>
+                  
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Subject...">
+                    </div>
+                    </div>
+                    <div class="form-group row">
+                    <div class="col">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" placeholder="Your Message"></textarea>
+                        
+                    </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3">SEND MESSAGE</button>
+              </form>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <div class="container-fluid footer mt-5">
+        <div class="row text-center padding">
+            <div class="col-3 mt-4">
+            <a href="#"><img src="media/logox3.png" height="100px" alt=""> </a>  
+           </div>    
+       
+        <div class="col-3 padding">
+           <h4>Support</h1>          
+     
+       <ul class="nav flex-column">
+           <li class="nav-item">
+             <a class="nav-link active" href="#">FAQ</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Help Desk</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Forums</a>
+           </li>
+          
+         </ul>
+    </div>
+    <div class="col-3 padding">
+       <h4>About us</h1> 
+   <ul class="nav flex-column mt-0">
+       <li class="nav-item">
+         <a class="nav-link active" href="#">Website Information</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="contactform.html">Contact us</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Review</a>
+       </li>
+      
+     </ul>
+</div>
+    <div class="col-3 social padding">
+       <h4>Connect</h1>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+   </div>
+</div>
+<hr class="socket">
+<div class="col-12 text-center p-1">Designed By Nguyen Van Thach</div>
+
+</div>
+<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="mymodal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Contact Information</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <footer>
+                <div class="container-fluid padding" id="footer">
+                    <div class="row text-center padding">
+                        <div class="col-6">
+                        <p><span class="fas fa-id-card mr-1"></span>MSSV:61134327</p>
+                        <p><span class="fab fa-google mr-1"></span>mygmail@gmail.com</p>
+                        <p><span class="fas fa-user mr-1"></span>K61.CNTT-CLC</p>
+                        </div>
+                        <div class="col-6">
+                            <p> <span class="fas fa-phone mr-1"></span>Contact:000 000 000</p>
+                       
+                         <p> <span class="fas fa-address-card mr-1"></span>Address:xxx ABC XYZ</p>
+                        <p><span class="fas fa-fax mr-1"></span>Fax:699865</p>
+                        </div>
+                    </div>
+                </div>
+              
+            </footer>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href="contactform.html" role="button">Contact Form</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

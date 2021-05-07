@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+  
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+   
+    
+          
+        <nav class="navbar navbar-expand-md navbar-light bg-light d-flex sticky-top" id="parent">
+            <div class="navbar-toggler text-center w-100 border-0 p-0">
+            
+               
+                <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+               
+                <a class="navbar-brand" href="#"><img src="../media/logox3.png" height="40px" alt=""></a>
+        
+              
+                <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#collapsibleNavbar_2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            
+            <!-- Menu 1 -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar_1"  data-parent="#parent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                           About Us
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="dev.html">Website</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" data-toggle="modal" href="#modaldev">Designer</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" href="#mymodal">Contact</a>
+                    </li>
+
+                </ul>
+            </div> 
+            <div class="collapse navbar-collapse justify-content-center">
+                <a href="#"><img src="media/logox3.png" height="50px" alt=""></a>
+            </div>
+              
+            <div class="collapse navbar-collapse justify-content-end text-right" id="collapsibleNavbar_2" data-parent="#parent">
+                <form class="form-inline my-3 my-md-0 justify-content-end">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="" />
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+        </nav>
+     
+      
+           
+                <div class="container-fluid padding" id="intro">
+                    <div class="row welcome text-center dark">
+                        <div class="col-12">
+                                <h1 class="display-4">BUILT WITH CARE</h1>          
+                                <div class="heading-underline"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Describe the structure of information on a web page</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fab fa-css3"></i>
+                        <h3>CSS3</h3>
+                        <p>Controlling a page's appearance</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <i class="fas fa-bold"></i>
+                        <h3>Bootstrap</h3>
+                        <p>Responsive a Website</p>
+                    </div>
+                </div>
+               
+                </div>
+           
+       
+                <div class="modal fade" id="modaldev" tabindex="-1" role="dialog" aria-labelledby="modaldev" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-center" id="exampleModalLongTitle">DESGINER INFROMATION</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid padding mt-4">
+                                <div class="col-12 text-center">
+                                    <h1 class="display-4">DESGINER</h1>          
+                                    <div class="heading-underline"></div>
+                               <div class="row">
+                               
+                                <div class="col-md-6">
+                                   
+                                    <img src="media/user-512.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-md-6 text-center align-self-center">
+                                            <h4 style="text-decoration:underline;" class="card-title">Nguyen Van Thach</h4>
+                                            <p class="card-text"><span class="fas fa-graduation-cap mr-1"></span>2nd year student at NTU University</p>
+                                            <p class="card-text"><span class="fas fa-graduation-cap mr-1"></span>61st grade - Information Technology Branch (ITB) </p>
+                                            <p class="card-text"><span class="fab fa-google mr-1"></span>nguyenthach617&commat;gmail.com</p>
+                                            <p class="card-text"><span class="fab fa-facebook mr-1"></span><a style="text-decoration: none; color:white" href="https://facebook.com/yeutieumieu">My Facebook</a></p>
+                                            <p class="card-text"><span class="fas fa-phone mr-1"></span>035 393 xxx</p>
+
+                                          
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+       
+          
+         
+            
+      
+        
+
+        <div class="container-fluid padding mt-4">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                        <h1 class="display-4">REFERENCES</h1>          
+                        <div class="heading-underline"></div>
+            </div>
+        </div>
+        </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+               
+                <p>My main reference is the clips on youtube such as <a href="https://www.youtube.com/watch?v=9cKsq14Kfsw">Youtube Clip</a> and a few other websites like </p>
+                <div class="list-group list-group-flush">
+                    <a href="https://getbootstrap.com/" class="list-group-item list-group-item-action">Getbootstrap</a>
+                    <a href="https://www.w3schools.com/bootstrap" class="list-group-item list-group-item-action">W3schools</a>
+                    <a href="https://www.freecodecamp.org/" class="list-group-item list-group-item-action">Freecodecamp</a>
+                    <a href="https://mdbootstrap.com/" class="list-group-item list-group-item-action">mdbootstrap</a>
+                    <a href="https://www.google.com.vn/" class="list-group-item list-group-item-action disabled">Some other websites</a>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+               <a href="https://www.youtube.com/watch?v=9cKsq14Kfsw"> <img src="media/ytbclip.jpg" class="img-fluid"></a>
+            </div>
+        </div>
+      
+    </div>
+   
+
+     <div class="container-fluid footer mt-5">
+         <div class="row text-center padding">
+            <div class="col-3 mt-4">
+            <a href="#"><img src="media/logox3.png" height="100px" alt=""> </a>  
+            </div>    
+        
+         <div class="col-3 padding">
+            <h4>Support</h1>          
+      
+        <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help Desk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Forums</a>
+            </li>
+           
+          </ul>
+     </div>
+     <div class="col-3 padding">
+        <h4>About us</h1> 
+    <ul class="nav flex-column mt-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Website Information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactform.html">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Review</a>
+        </li>
+       
+      </ul>
+ </div>
+     <div class="col-3 social padding">
+        <h4>Connect</h1>
+     <a href="#"><i class="fab fa-facebook"></i></a>
+     <a href="#"><i class="fab fa-twitter"></i></a>
+     <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+ </div>
+     <hr class="socket">
+     <div class="col-12 text-center p-1">Designed By Nguyen Van Thach</div>
+    </div>
+
+  
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="mymodal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Contact Information</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <footer>
+                <div class="container-fluid padding" id="footer">
+                    <div class="row text-center padding">
+                        <div class="col-6">
+                        <p><span class="fas fa-id-card mr-1"></span>MSSV:61134327</p>
+                        <p><span class="fab fa-google mr-1"></span>mygmail@gmail.com</p>
+                        <p><span class="fas fa-user mr-1"></span>K61.CNTT-CLC</p>
+                        </div>
+                        <div class="col-6">
+                            <p> <span class="fas fa-phone mr-1"></span>Contact:000 000 000</p>
+                       
+                         <p> <span class="fas fa-address-card mr-1"></span>Address:xxx ABC XYZ</p>
+                        <p><span class="fas fa-fax mr-1"></span>Fax:699865</p>
+                        </div>
+                    </div>
+                </div>
+              
+            </footer>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href="contactform.html" role="button">Contact Form</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
